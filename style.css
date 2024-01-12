@@ -1,0 +1,62 @@
+/*  Developed by Kavya Anil - 22112016  */
+
+.nav-bar{
+    display: flex;
+    margin:0;
+    font-size: 1.5em;
+    list-style: none;
+    gap: 35px;
+    background-color:beige;
+    /* align-items: ; */
+
+}
+.push{
+    margin-left:auto;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.obj{
+    margin-left: 10px;
+}
+.cover{
+    margin-top: 15px;
+    display:block;
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: Georgia, serif;
+    background-color:cornsilk;
+}
+.gridd{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+}
+.grid{
+    text-align: center;
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    font-size: 35px;
+    height: 40vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.grid:hover{
+    -webkit-transform: rotate(-7deg);
+}
+footer{
+     margin-top: 125px;
+    text-align: center;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+body{
+    background-color:indianred;
+}
+.tagline{
+    font-size: 30px;
+    font-family: Georgia, serif;
+}
